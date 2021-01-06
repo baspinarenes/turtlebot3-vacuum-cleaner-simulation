@@ -1,0 +1,11 @@
+<launch> 
+    <param name="/use_sim_time" value="true" />       
+    <!-- Launch turtle bot world -->
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>      
+ 
+    <!-- Launch vacum_cleaner node -->
+    <node pkg="vacuum_cleaner_simulation" type="vacuum_cleaner" name="vacuum_cleaner" output="screen"/>
+
+    <!-- Launch rviz for see lidar data -->
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_gazebo_rviz.launch"/> 
+</launch>

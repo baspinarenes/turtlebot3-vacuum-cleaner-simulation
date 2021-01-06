@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/enesbaspinar/catkin_ws/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/enesbaspinar/catkin_ws/src/vacuum_cleaner_simulation/include/**",
+                "/home/enesbaspinar/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/enesbaspinar/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/home/enesbaspinar/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+                "/usr/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
