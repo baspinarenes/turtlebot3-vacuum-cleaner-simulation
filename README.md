@@ -1,5 +1,8 @@
 # turtlebot3-vacuum-cleaner-simulation
 
+![alt text](https://github.com/baspinarenes/turtlebot3-vacuum-cleaner-simulation/blob/main/ros_gazebo_rviz.png?raw=true)
+
+
 Projenin amacı, ROS Gazebo simülasyonundaki turtlebot3 robotunun bir odada sürekli olarak gezmesi ve engel gördüğünde en uzak mesafeye yönelerek bu işlemleri tekrar etmesidir. Bu proje, Kocaeli Üniversitesi Bilgisayar Mühendisliği 4. Sınıf Gezgin Robotlara Giriş dersi kapsamında yapılmıştır. 
 
 ## Projenin Çalıştırılması
